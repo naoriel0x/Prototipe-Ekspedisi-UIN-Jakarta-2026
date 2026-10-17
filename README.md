@@ -25,18 +25,18 @@
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   Pulse Coil ──► Electromagnetic Pulse ──► Sensor Coil     │
+│   Pulse Coil ──► Electromagnetic Pulse ──► Sensor Coil      │
 │                                                │            │
 │                                         Induction Response  │
 │                                                │            │
 │                                         Arduino Nano (ADC)  │
 │                                                │            │
-│                              ┌─────────────────┴──────┐    │
-│                              │  Adaptive Calibration  │    │
-│                              └─────────────────┬──────┘    │
+│                              ┌─────────────────┴──────┐     │
+│                              │  Adaptive Calibration  │     │
+│                              └─────────────────┬──────┘     │
 │                                                │            │
-│                         ┌──────────────────────┤           │
-│                         │                      │           │
+│                         ┌──────────────────────┤            │
+│                         │                      │            │
 │                    ✅ NORMAL               🚨 METAL!       │
 │                    Green LED              Red LED           │
 │                                           + Buzzer          │
